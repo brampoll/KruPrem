@@ -1,0 +1,164 @@
+body {
+  color: #aa4a30;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #fff2e5;
+}
+
+h1 {
+  color: #aa4a30;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  /*font-family: 'Sacramento', cursive;*/
+  font-family: 'Grandstander', cursive;
+}
+
+h2 {
+  color: #aa4a30;
+  font-family: 'Lobster', cursive;
+  font-size: 3.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #aa4a30;
+  font-family: 'Lobster', cursive;
+  font-size:2.5rem;
+
+}
+
+p {
+  line-height: 2;
+  font-family: 'Grenze Gotisch', cursive;
+  font-size: 2rem;
+}
+
+hr {
+  border: dotted #aa4a30 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+  color: #aa4a30;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  line-height: 2;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 10px;
+  background-image: linear-gradient(to bottom right, #edcfa9,#e89f71 );
+  height: 100vh;
+}
+
+.middle-container {
+  margin: 200px 0;
+  background-color: #fff2e5;
+}
+
+.bottom-container {
+  background-image: linear-gradient(to bottom right, #edcfa9,#e89f71 );
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+
+
+
+}
+
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+
+
+.student-img {
+  width: 55%;
+  /*float: left;
+  margin-right: 30px;*/
+}
+
+.band-img {
+  width: 55%;
+  /*float:right;
+  margin-left: 30px;*/
+}
+.piano{
+  width: 30%;
+}
+
+.teacher{
+  font-size: 2rem;
+}
+
+
+.bram-pic{
+  width: 35%;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #edcfa9, #e89f71);
+  background-image: -moz-linear-gradient(top, #edcfa9, #e89f71);
+  background-image: -ms-linear-gradient(top, #edcfa9, #e89f71);
+  background-image: -o-linear-gradient(top, #edcfa9, #e89f71);
+  background-image: linear-gradient(to bottom, #edcfa9, #e89f71);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #aa4a30;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #edcfa9;
+  background-image: -webkit-linear-gradient(top, #e89f71, #e89f71);
+  background-image: -moz-linear-gradient(top, #e89f71, #e89f71);
+  background-image: -ms-linear-gradient(top, #e89f71, #e89f71);
+  background-image: -o-linear-gradient(top, #e89f71, #e89f71);
+  background-image: linear-gradient(to bottom, #e89f71, #e89f71);
+  text-decoration: none;
+}
+
+@media(max-width: 600px){
+  .piano{
+    width: 40%;
+  }
+  .intro{
+    width: 50%;
+  }
+}
