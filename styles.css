@@ -162,3 +162,7 @@ a:hover {
     width: 50%;
   }
 }
+@media(max-width: 1000px){
+  .piano{
+    width:40%;
+  }
